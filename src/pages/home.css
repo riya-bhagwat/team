@@ -1,0 +1,143 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 100px;
+  width: 80vw;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 18px;
+  color: #333;
+  padding: 8px;
+  flex:1;
+}
+
+.paginationButton {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.paginationButton a {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 8px;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.paginationButton a:hover {
+  color: white;
+  background-color: #333;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #333;
+}
+
+.Search_Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.Input_Container {
+  margin-right: 20px;
+}
+
+.dropdown {
+  display: flex;
+}
+.selected{
+  margin:5px;
+}
+
+.Navbar {
+  height: 60px;
+  width: 80vw;
+  background-color: #4b5d67;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.outercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+.outer-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.displayusers {
+  margin-bottom: 20px;
+}
+
+.outercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Add media query for responsiveness if needed */
+@media (max-width: 768px) {
+  .Navbar,
+  .Container,
+  .paginationButton a {
+    width: 100%;
+  }
+}
+
+.Input_Container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button button {
+  padding: 10px 15px;
+  background-color: #4b5d67;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #333;
+}
+
+
+.dropdown select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+.dropdown select option {
+  background-color: #fff;
+  color: #333;
+}
+
+
+
